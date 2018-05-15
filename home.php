@@ -298,25 +298,26 @@ $select=new select;
       </main>
       <aside class="aside-menu">
         <ul class="nav nav-tabs" role="tablist">
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link active" data-toggle="tab" href="#timeline" role="tab">
               <i class="icon-list"></i>
             </a>
-          </li>
+          </li>-->
           <li class="nav-item">
             <a class="nav-link" data-toggle="tab" href="#messages" role="tab">
               <i class="icon-speech"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
+            <a class="nav-link active" data-toggle="tab" href="#settings" role="tab">
               <i class="icon-settings"></i>
             </a>
           </li>
         </ul>
         <!-- Tab panes-->
         <div class="tab-content">
-          <div class="tab-pane active" id="timeline" role="tabpanel">
+		
+        <!--  <div class="tab-pane active" id="timeline" role="tabpanel">
             <div class="list-group list-group-accent">
               <div class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">Today</div>
               <div class="list-group-item list-group-item-accent-warning list-group-item-divider">
@@ -412,7 +413,9 @@ $select=new select;
               </div>
             </div>
           </div>
-          <div class="tab-pane p-3" id="messages" role="tabpanel">
+          -->
+		  
+		  <div class="tab-pane p-3" id="messages" role="tabpanel">
             <div class="message">
               <div class="py-3 pb-5 mr-3 float-left">
                 <div class="avatar">
@@ -488,7 +491,7 @@ $select=new select;
               <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...</small>
             </div>
           </div>
-          <div class="tab-pane p-3" id="settings" role="tabpanel">
+          <div class="tab-pane p-3 active" id="settings" role="tabpanel">
             <h6>Settings</h6>
             <div class="aside-options">
               <div class="clearfix mt-4">
@@ -620,6 +623,8 @@ $select=new select;
 				loadMenu('005');
 			}else if(act_mn=='006'){				
 				loadMenu('006');
+			}else if(act_mn=='002'){				
+				loadMenu('002');
 			}
 	}
 	

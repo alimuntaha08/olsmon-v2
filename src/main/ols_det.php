@@ -91,15 +91,21 @@ $('#top_menu').html('\
 <?php
 $data = array();
 $sql=$select->sysinfo_log($kode);
-while ( $row = mysql_fetch_assoc($sql) )
+while ( $row = mysql_fetch_array($sql) )
 {
-    $data[] = $row;
+     $data[] = $row['cpuload'];
+     $data1[] = $row['rpitemp'];
+    $data10[] = $row['tanggal'];
 }
-echo json_encode( $data );
+echo $dt=json_encode( $data );
+echo '<br>';
+echo '<br>';
+echo $dt=json_encode( $data1 );
+//echo array_sum($data)/12;
 
-$cpu = array('4.2', '5.4', '7.8', '5.5', '6.3', '4.6', '4.2');
+$cpu  = array('4.2', '5.4', '7.8', '5.5', '6.3', '4.6', '4.2');
 $temp = array('20', '40', '35', '60', '45', '30', '60');
-$mem = array('4.2', '5.4', '7.8', '5.5', '6.3', '4.6', '4.2');
+$mem  = array('4.2', '5.4', '7.8', '5.5', '6.3', '4.6', '4.2');
 $disk = array('78', '81', '80', '45', '34', '12', '40', '85', '65', '23', '12', '98', '34', '84', '67', '82');
 ?>
 <script>

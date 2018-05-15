@@ -38,6 +38,7 @@ if(isset($_POST['btn-login']))
     <meta name="author" content="Łukasz Holeczek">
     <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
     <title>OLS monitoring system</title>
+	<link rel="icon" href="src/img/brand/favicon.ico" type="image/x-icon"/>
     <!-- Icons-->
 	<link rel="icon" href="src/img/brand/favicon.ico" type="image/x-icon"/>
     <link href="node_modules/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">

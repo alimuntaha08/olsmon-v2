@@ -1,0 +1,44 @@
+[Sat May 12 17:18:56.273327 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1989] PHP Parse error:  syntax error, unexpected '}' in C:\\xampp\\htdocs\\olsmon\\homex.php on line 715
+[Sat May 12 17:19:45.568449 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1992] PHP Warning:  include(class/class.select.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\olsmon\\homex.php on line 2
+[Sat May 12 17:19:45.572455 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1992] PHP Warning:  include(): Failed opening 'class/class.select.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\olsmon\\homex.php on line 2
+[Sat May 12 17:19:45.572455 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1992] PHP Warning:  include(sesion.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\olsmon\\homex.php on line 3
+[Sat May 12 17:19:45.572455 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1992] PHP Warning:  include(): Failed opening 'sesion.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\olsmon\\homex.php on line 3
+[Sat May 12 17:19:45.572455 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1992] PHP Fatal error:  Class 'select' not found in C:\\xampp\\htdocs\\olsmon\\homex.php on line 18
+[Sat May 12 17:20:34.178430 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1993] PHP Warning:  include(sesion.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\olsmon\\homex.php on line 3
+[Sat May 12 17:20:34.178430 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1993] PHP Warning:  include(): Failed opening 'sesion.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\olsmon\\homex.php on line 3
+[Sat May 12 17:20:34.178430 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1993] PHP Notice:  Undefined index: xdt in C:\\xampp\\htdocs\\olsmon\\homex.php on line 19
+[Sat May 12 17:20:34.178430 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1993] PHP Notice:  Undefined offset: 1 in C:\\xampp\\htdocs\\olsmon\\homex.php on line 21
+[Sat May 12 17:20:34.178430 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1993] PHP Notice:  Undefined offset: 2 in C:\\xampp\\htdocs\\olsmon\\homex.php on line 22
+[Sat May 12 17:20:34.178430 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1993] PHP Notice:  Undefined offset: 3 in C:\\xampp\\htdocs\\olsmon\\homex.php on line 23
+[Sat May 12 17:20:34.178430 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1993] PHP Notice:  Undefined offset: 3 in C:\\xampp\\htdocs\\olsmon\\homex.php on line 24
+[Sat May 12 17:20:34.178430 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1993] PHP Fatal error:  Call to undefined method select::setup() in C:\\xampp\\htdocs\\olsmon\\homex.php on line 41
+[Sat May 12 17:20:43.269631 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1995] PHP Warning:  include(src/sesion.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\olsmon\\homex.php on line 3
+[Sat May 12 17:20:43.269631 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1995] PHP Warning:  include(): Failed opening 'src/sesion.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\olsmon\\homex.php on line 3
+[Sat May 12 17:20:43.269631 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1995] PHP Notice:  Undefined index: xdt in C:\\xampp\\htdocs\\olsmon\\homex.php on line 19
+[Sat May 12 17:20:43.269631 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1995] PHP Notice:  Undefined offset: 1 in C:\\xampp\\htdocs\\olsmon\\homex.php on line 21
+[Sat May 12 17:20:43.269631 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1995] PHP Notice:  Undefined offset: 2 in C:\\xampp\\htdocs\\olsmon\\homex.php on line 22
+[Sat May 12 17:20:43.269631 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1995] PHP Notice:  Undefined offset: 3 in C:\\xampp\\htdocs\\olsmon\\homex.php on line 23
+[Sat May 12 17:20:43.269631 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1995] PHP Notice:  Undefined offset: 3 in C:\\xampp\\htdocs\\olsmon\\homex.php on line 24
+[Sat May 12 17:20:43.269631 2018] [:error] [pid 9564:tid 2032] [client 127.0.0.1:1995] PHP Fatal error:  Call to undefined method select::setup() in C:\\xampp\\htdocs\\olsmon\\homex.php on line 41
+[Sat May 12 17:23:08.254055 2018] [:error] [pid 9564:tid 2040] [client 127.0.0.1:2008] PHP Warning:  include(src/sesion.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\olsmon\\homex.php on line 3
+[Sat May 12 17:23:08.254055 2018] [:error] [pid 9564:tid 2040] [client 127.0.0.1:2008] PHP Warning:  include(): Failed opening 'src/sesion.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\olsmon\\homex.php on line 3
+[Sat May 12 17:23:08.254055 2018] [:error] [pid 9564:tid 2040] [client 127.0.0.1:2008] PHP Notice:  Undefined index: xdt in C:\\xampp\\htdocs\\olsmon\\homex.php on line 19
+[Sat May 12 17:23:08.254055 2018] [:error] [pid 9564:tid 2040] [client 127.0.0.1:2008] PHP Notice:  Undefined offset: 1 in C:\\xampp\\htdocs\\olsmon\\homex.php on line 21
+[Sat May 12 17:23:08.254055 2018] [:error] [pid 9564:tid 2040] [client 127.0.0.1:2008] PHP Notice:  Undefined offset: 2 in C:\\xampp\\htdocs\\olsmon\\homex.php on line 22
+[Sat May 12 17:23:08.254055 2018] [:error] [pid 9564:tid 2040] [client 127.0.0.1:2008] PHP Notice:  Undefined offset: 3 in C:\\xampp\\htdocs\\olsmon\\homex.php on line 23
+[Sat May 12 17:23:08.254055 2018] [:error] [pid 9564:tid 2040] [client 127.0.0.1:2008] PHP Notice:  Undefined offset: 3 in C:\\xampp\\htdocs\\olsmon\\homex.php on line 24
+[Sat May 12 17:23:08.254055 2018] [:error] [pid 9564:tid 2040] [client 127.0.0.1:2008] PHP Fatal error:  Call to undefined method select::setup() in C:\\xampp\\htdocs\\olsmon\\homex.php on line 41
+[Sat May 12 20:48:38.830022 2018] [:error] [pid 1452:tid 2040] [client 127.0.0.1:1564] PHP Notice:  Undefined index: userSession in C:\\xampp\\htdocs\\olsmon\\home.php on line 12
+[Sat May 12 20:48:38.870693 2018] [:error] [pid 1452:tid 2040] [client 127.0.0.1:1564] PHP Notice:  Undefined index: userSession in C:\\xampp\\htdocs\\olsmon\\home.php on line 17
+[Mon May 14 11:19:21.893527 2018] [:error] [pid 5000:tid 2036] [client 127.0.0.1:1037] PHP Notice:  Undefined index: userSession in C:\\xampp\\htdocs\\olsmon\\home.php on line 12
+[Mon May 14 11:19:21.970582 2018] [:error] [pid 5000:tid 2036] [client 127.0.0.1:1037] PHP Notice:  Undefined index: userSession in C:\\xampp\\htdocs\\olsmon\\home.php on line 17
+[Mon May 14 11:19:22.241724 2018] [:error] [pid 5000:tid 2028] [client 127.0.0.1:1038] PHP Notice:  Undefined index: userSession in C:\\xampp\\htdocs\\olsmon\\home.php on line 12
+[Mon May 14 11:19:22.247728 2018] [:error] [pid 5000:tid 2028] [client 127.0.0.1:1038] PHP Notice:  Undefined index: userSession in C:\\xampp\\htdocs\\olsmon\\home.php on line 17
+[Mon May 14 21:04:43.935241 2018] [:error] [pid 8236:tid 2028] [client 127.0.0.1:2072] PHP Notice:  Undefined index: userSession in C:\\xampp\\htdocs\\olsmon\\home.php on line 12
+[Mon May 14 21:04:44.017197 2018] [:error] [pid 8236:tid 2028] [client 127.0.0.1:2072] PHP Notice:  Undefined index: userSession in C:\\xampp\\htdocs\\olsmon\\home.php on line 17
+[Mon May 14 21:04:44.633492 2018] [:error] [pid 8236:tid 2028] [client 127.0.0.1:2075] PHP Notice:  Undefined index: userSession in C:\\xampp\\htdocs\\olsmon\\home.php on line 12
+[Mon May 14 21:04:44.636489 2018] [:error] [pid 8236:tid 2028] [client 127.0.0.1:2075] PHP Notice:  Undefined index: userSession in C:\\xampp\\htdocs\\olsmon\\home.php on line 17
+[Tue May 15 14:53:58.654687 2018] [:error] [pid 10696:tid 2060] [client 127.0.0.1:2147] PHP Notice:  Undefined index: userSession in C:\\xampp\\htdocs\\olsmon\\home.php on line 12
+[Tue May 15 14:53:58.698609 2018] [:error] [pid 10696:tid 2060] [client 127.0.0.1:2147] PHP Notice:  Undefined index: userSession in C:\\xampp\\htdocs\\olsmon\\home.php on line 17
+[Tue May 15 14:53:59.112232 2018] [:error] [pid 10696:tid 2056] [client 127.0.0.1:2148] PHP Notice:  Undefined index: userSession in C:\\xampp\\htdocs\\olsmon\\home.php on line 12
+[Tue May 15 14:53:59.116226 2018] [:error] [pid 10696:tid 2056] [client 127.0.0.1:2148] PHP Notice:  Undefined index: userSession in C:\\xampp\\htdocs\\olsmon\\home.php on line 17

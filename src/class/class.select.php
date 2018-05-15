@@ -224,6 +224,10 @@ class select{
 			FROM
 				m_ols
 			Inner Join sys_info ON m_ols.kode = sys_info.kode
+			Inner Join m_gi ON m_ols.kode_gi = m_gi.kode
+			WHERE
+				m_ols.aktif='1' and m_ols.jenis='ols'
+			order by m_ols.kode, m_ols.kd_group asc
 			");
 			/* while($row=mysql_fetch_assoc($sql)) {
 			  $ret[] = $row;
@@ -267,7 +271,7 @@ class select{
 			Inner Join sys_info_log ON m_ols.kode = sys_info_log.kode
 			Where sys_info_log.kode='".$kd."'
 			");
-			
+			//and sys_info_log.tanggal like '%2018-05-06%'
 			return $sql;	
 	}
 	
